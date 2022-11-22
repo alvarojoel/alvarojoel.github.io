@@ -7,20 +7,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Proyecto banderas</title>
     <link rel="stylesheet" href="css/style-ejercicio1-resuelto.css">
+    <script src="./script/main.js" defer></script>
 </head>
 
 <body>
-    <h1>Trabajando con banderas</h1>
-    <article id="ejercicio1">
+    <h1>Proyecto Banderas</h1>
+    <label for="select">Seleccione bandera a visualizar:</label>
+    <select name="select" id="selection"  onchange="banderasCambio()">
+        <option value=1>Guatemala</option>
+        <option value=2>India</option>
+        <option value=3>Paises Bajos</option>
+        <option value=4>Suecia</option>
+        <option value=5>Suiza</option>
+      </select>
+
+    <div id="ejercicio1">
         <h2>Ejercicio 1: Guatemala</h2>
         <div class="contenedor">
             <div class="parte1"></div>
             <div class="parte3"></div>
             <div class="parte2"><img src="img/guatemala.png" alt="Escudo Guatemala"></div>
         </div>
-    </article>
+    </div>
 
-    <article id="ejercicio2">
+    <div id="ejercicio2">
         <h2>Ejercicio 2: Níger, India</h2>
         <div class="contenedor">
             <div class="parte1"></div>
@@ -31,9 +41,9 @@
             <div class="parte6"><img src="img/india.png" alt="Emblema India"></div>
             <div class="parte7"></div>
         </div>
-    </article>
+    </div>
 
-    <article id="ejercicio3">
+    <div id="ejercicio3">
         <h2>Ejercicio 3: Paises Bajos, Francia</h2>
         <div class="contenedor">
             <div id="bajos">
@@ -49,8 +59,8 @@
             <div class="parte7"></div>
 
         </div>
-    </article>
-    <article id="ejercicio4">
+    </div>
+    <div id="ejercicio4">
         <h2>Ejercicio 4: Suecia</h2>
         <div class="contenedor">
             <div id="superior">
@@ -65,16 +75,16 @@
                 <div class="parte7"></div>
             </div>
         </div>
-    </article>
+    </div>
 
-    <article id="ejercicio5">
+    <div id="ejercicio5">
         <h2>Ejercicio 5: Suiza</h2>
         <div class="contenedor">
             <div class="parte1"></div>
             <div class="parte2"></div>
             <div class="parte3"></div>
         </div>
-    </article>
+    </div>
 </body>
 
 </html>
